@@ -91,3 +91,20 @@ form input[type="submit"]:hover{
     font-size: 18px;
     border: 2px solid #08080833;
 }
+
+.quantity{
+    display: flex;
+    width: 100%;
+}
+.plus, .minus{
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #0c0cb2;
+    color: #e3e3e3;
+}
+
+.minus:disabled{
+    background-color: grey;
+}
